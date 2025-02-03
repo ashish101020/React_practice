@@ -11,6 +11,8 @@ import FilterProduct from './components/FilterProduct'
 import Fetch_Data_API from './components/Fetch_Data_API'
 import DogPics from './components/DogPics'
 import Form from './components/Form'
+import Form2 from './components/Form2'
+import BookAppointment from './components/BookAppointment'
 
 const App = () => {
 
@@ -65,7 +67,15 @@ const App = () => {
     </div>
 
     <div>
-      <Form/>
+      {/* <Form/> */}
+    </div>
+
+    <div>
+      {/* <Form2/> */}
+    </div>
+
+    <div>
+      <BookAppointment/>
     </div>
     </>
   )
