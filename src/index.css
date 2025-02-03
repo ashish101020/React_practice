@@ -3,7 +3,7 @@ body{
     color: white;
   }
 
-  #button-container{
+  /* #button-container{
     display: flex;
     gap: 5px;
   }
@@ -19,4 +19,9 @@ body{
   #content img{
     width: 200px;
     height: 200px;
+  } */
+
+
+  div{
+    margin: 10px;
   }
