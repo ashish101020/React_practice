@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+  }
+
+  #button-container{
+    display: flex;
+    gap: 5px;
+  }
+  #button-container button {
+    width: 70px;
+    height: 70px;
+    border: 3px solid gray;
+    border-radius: 5px;
+  }
+  #content{
+    padding: 10px;
+  }
+  #content img{
+    width: 200px;
+    height: 200px;
+  }
