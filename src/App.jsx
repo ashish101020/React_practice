@@ -13,6 +13,12 @@ import DogPics from './components/DogPics'
 import Form from './components/Form'
 import Form2 from './components/Form2'
 import BookAppointment from './components/BookAppointment'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Team from './pages/Team'
+import Contact from './pages/Contact'
+import Products from './pages/Products'
 
 const App = () => {
 
@@ -75,8 +81,19 @@ const App = () => {
     </div>
 
     <div>
-      <BookAppointment/>
+      {/* <BookAppointment/> */}
     </div>
+
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/team' element={<Team/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/products' element={<Products/>} />
+      </Routes>
+    </Router>
+
     </>
   )
 }
